@@ -27,6 +27,7 @@ class User7r41n33::RackArrays
   end
 
   private
+  
   def prepare_path
     @request.path_info.tr('-', '_').tr('/', '').downcase
   end
